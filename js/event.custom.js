@@ -1,7 +1,3 @@
-/*
- * Quiropractico Palma custom interactions.
- * Adapted from the Assan Event template without jQuery/plugin dependencies.
- */
 (function () {
   "use strict";
 
