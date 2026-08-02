@@ -1,9 +1,3 @@
-/*
-Assan Event Template
-Version- 3.8
-author - design_mylife
-support - mylifedesign143@gmail.com
-*/
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,700,800");
 @font-face {
   font-family: 'FontAwesome';
@@ -12,7 +6,6 @@ support - mylifedesign143@gmail.com
   font-weight: normal;
   font-style: normal; }
 
-/*themify icons*/
 @font-face {
   font-family: 'themify';
   src: url("../bower_components/themify-icons/fonts/themify.eot");
@@ -20,9 +13,6 @@ support - mylifedesign143@gmail.com
   font-weight: normal;
   font-style: normal; }
 
-/*
-Basic of template
-*/
 html, body {
   height: 100%; }
 
@@ -54,7 +44,6 @@ a {
     outline: 0 !important;
     color: #666; }
 
-/**typography**/
 h1,
 h2,
 h3,
@@ -405,7 +394,6 @@ strong, b {
     transform: translate3d(0, 0px, 0);
     -webkit-transform: translate3d(0, 0px, 0); }
 
-/**preloader**/
 .loader,
 .loader:before,
 .loader:after {
@@ -488,9 +476,6 @@ strong, b {
   font-size: 13px;
   margin-bottom: 15px; }
 
-/*
-Buttons
-*/
 .form-control-lg, .input-group-lg > .form-control, .input-group-lg > .input-group-addon, .input-group-lg > .input-group-btn > .btn {
   font-size: .8rem; }
 
@@ -654,7 +639,6 @@ Buttons
       width: 100%;
       background-color: #ccc; }
 
-/**fill buttons**/
 .btn-primary, .btn-success, .btn-warning, .btn-danger, .btn-info, .btn-secondary {
   box-shadow: 0 0.05em 0.1em rgba(0, 0, 0, 0.18);
   border: 0px; }
@@ -708,12 +692,6 @@ Buttons
   background: #8bcb26;
   color: #fff; }
 
-/****************
-
-SOCIAL BUTTONS
-
-**********************/
-/**social icons default size**/
 .social-icon {
   margin: 0 5px 5px 0;
   width: 40px;
@@ -747,7 +725,6 @@ SOCIAL BUTTONS
 .social-icon:hover i:first-child {
   margin-top: -40px; }
 
-/***social icons lg (big)***/
 .social-icon-lg {
   margin: 0 5px 5px 0;
   width: 60px;
@@ -781,7 +758,6 @@ SOCIAL BUTTONS
 .social-icon-lg:hover i:first-child {
   margin-top: -60px; }
 
-/***social icons small***/
 .social-icon-sm {
   margin: 0 5px 5px 0;
   width: 30px;
@@ -845,7 +821,6 @@ si-border {
   border: 0px !important;
   color: #fff !important; }
 
-/**icons hover colored**/
 .si-colored-facebook, .si-facebook:hover {
   background-color: #3B5998 !important; }
 
@@ -927,9 +902,6 @@ si-border {
 .si-wordpress:hover, .si-colored-wordpress {
   background-color: #1E8CBE !important; }
 
-/*
-Preloader style
-*/
 #preloader {
   position: fixed;
   top: 0;
@@ -980,9 +952,6 @@ Preloader style
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg); } }
 
-/*
-Personal Portfolio Navbar
-*/
 .navbar.navbar-light.navbar-transparent.bg-faded {
   background-color: transparent !important;
   position: absolute;
@@ -1022,9 +991,6 @@ Personal Portfolio Navbar
       color: #8bcb26;
       opacity: 1; }
 
-/*
-Fullscreen hero
-*/
 .fullscreen-hero {
   width: 100%;
   height: 100%;
@@ -1048,9 +1014,6 @@ Fullscreen hero
     height: 100%;
     background-color: rgba(0, 0, 0, 0.6); }
 
-/* 
-    Icon cards
-*/
 .icon-card > i {
   float: left;
   margin-right: 15px;
@@ -1079,9 +1042,6 @@ Fullscreen hero
   transform: translateY(-4px);
   -webkit-transform: translateY(-4px); }
 
-/*
-schedule
-*/
 .tabs-schedule.nav-tabs {
   border: 0px;
   border-bottom: 2px solid #f5f5f5;
@@ -1170,19 +1130,12 @@ schedule
     font-size: 14px;
     color: #666; }
 
-/*
-Our sponsors
-*/
 .sponsors-row a {
   display: block;
   width: 100%;
   padding: 30px;
   margin-bottom: 10px; }
 
-/*
-Split image section
-*/
-/**half image section**/
 @media (min-width: 992px) {
   .half-image-content {
     position: relative;
@@ -1213,9 +1166,6 @@ Split image section
     .cd-row > div h3 {
       margin-bottom: 0px; }
 
-/*
-Speakers
-*/
 .speaker-card {
   position: relative;
   overflow: hidden;
@@ -1277,9 +1227,6 @@ Speakers
         transform: translateY(-15px);
         -webkit-transform: translateY(-15px); }
 
-/*
-Pricing tables
-*/
 .pricing-table {
   margin: 10px 0;
   padding: 0 15px;
@@ -1332,9 +1279,6 @@ Pricing tables
     .plan.plan-dark h4, .plan.plan-dark ul li, .plan.plan-dark h6 {
       opacity: 0.8; }
 
-/*
-Footer style
-*/
 .insta-post a {
   display: block;
   float: left;
@@ -1361,7 +1305,6 @@ Footer style
     transform: translateY(-1px);
     -webkit-transform: translateY(-1px); }
 
-/** responsive style**/
 @media (max-width: 991px) {
   .hero-content .display-3 {
     font-size: 3rem; }
